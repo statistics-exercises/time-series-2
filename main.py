@@ -6,7 +6,7 @@ def exponential(lam):
 
 lamd = 2.0 
 expectation =     ## Set the true value of the expectation here
-indices, average = 200*[0], 200*[0] 
+indices, average = np.zeros(200), np.zeros(200) 
 for i in range(200) :
   # Add code to calculate the average from n exponential random variables here and to thus 
   # set the elements of the list called average.  Also write code to set the elements 
